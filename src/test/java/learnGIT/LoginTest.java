@@ -27,6 +27,7 @@ public class LoginTest
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@class='VfPpkd-RLmnJb']")).click();
 		Thread.sleep(2000);
+		System.out.println("Adding more codes");
 	}
 	@AfterTest
 	public void tearDown()
