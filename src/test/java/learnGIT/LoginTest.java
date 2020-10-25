@@ -28,6 +28,7 @@ public class LoginTest
 		driver.findElement(By.xpath("//*[@class='VfPpkd-RLmnJb']")).click();
 		Thread.sleep(2000);
 		System.out.println("Adding more codes");
+		System.out.println("Just testing if jenkins build triggered");
 	}
 	@AfterTest
 	public void tearDown()
